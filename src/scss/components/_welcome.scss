@@ -1,13 +1,17 @@
 .welcome {
-     display: flex;
-     gap: 10rem;
-  &__text {
-  }
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+
+  padding-top: 88rem;
+  padding-bottom: 143rem;
+  border-bottom: 1rem solid rgba(255, 255, 255, 0.15);
 
   &__title {
     font-weight: 700;
     font-size: 92rem;
     color: var(--white-color);
+    padding-bottom: 24rem;
   }
 
   &__info {
@@ -15,6 +19,7 @@
     font-size: 18rem;
     text-transform: uppercase;
     color: var(--white-color);
+    padding-bottom: 24rem;
   }
 
   &__description {
@@ -22,12 +27,18 @@
     font-size: 16rem;
     line-height: 160%;
     color: var(--text-color);
+    padding-bottom: 24rem;
   }
 
   &__btn {
     font-weight: 500;
     font-size: 16rem;
     color: var(--white-color);
+
+    display: inline-block;
+    border-radius: 5rem;
+    padding: 13rem 18rem;
+    background: var(--primary-color);
   }
 }
 
@@ -35,4 +46,10 @@
   border-radius: 100%;
   border: 10rem #ed9902 solid;
   box-shadow: 0 15px 14px 0 rgba(0, 0, 0, 0.59);
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  gap: 27rem;
 }
