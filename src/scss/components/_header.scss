@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: 37rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  
+  &__logo {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 28rem;
+  }
+
+  &__navbar {
+    display: flex;
+    gap: 24rem;
+  }
+
+  &__nav {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16rem;
+  }
+}
