@@ -1,0 +1,38 @@
+.welcome {
+     display: flex;
+     gap: 10rem;
+  &__text {
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 92rem;
+    color: var(--white-color);
+  }
+
+  &__info {
+    font-weight: 500;
+    font-size: 18rem;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 16rem;
+    line-height: 160%;
+    color: var(--text-color);
+  }
+
+  &__btn {
+    font-weight: 500;
+    font-size: 16rem;
+    color: var(--white-color);
+  }
+}
+
+.welcome-img {
+  border-radius: 100%;
+  border: 10rem #ed9902 solid;
+  box-shadow: 0 15px 14px 0 rgba(0, 0, 0, 0.59);
+}

@@ -13,10 +13,22 @@ body {
 
 a {
   color: #fff;
+  cursor: pointer;
 }
 
 .container {
+  display: inline-block;
   max-width: 1440px;
   padding-left: 150px;
   padding-right: 150px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, p {
+  margin: 0;
+  padding: 0;
 }
