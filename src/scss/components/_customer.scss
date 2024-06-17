@@ -1,0 +1,50 @@
+.customer {
+  padding-top: 66rem;
+  padding-bottom: 113rem;
+  border-bottom: var(--border);
+  &__description {
+    padding-bottom: 40rem;
+  }
+}
+
+.customer-grid-block {
+  background: var(--backgr-color);
+  border-radius: 8rem;
+  padding: 32rem;
+
+  &__name {
+    font-weight: 500;
+    font-size: 18rem;
+    line-height: 160%;
+    color: var(--white-color);
+    padding-bottom: 4rem;
+  }
+
+  &__prof {
+    font-weight: 400;
+    font-size: 18rem;
+    line-height: 160%;
+    color: var(--primary-color);
+  }
+}
+.customer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 26rem;
+  grid-row-gap: 26rem;
+
+  &__opinion {
+    font-weight: 400;
+    font-size: 18rem;
+    line-height: 160%;
+    color: var(--white-color);
+    padding-bottom: 28rem;
+  }
+
+  &__person {
+    border-radius: 100%;
+    display: flex;
+    gap: 20rem;
+  }
+}

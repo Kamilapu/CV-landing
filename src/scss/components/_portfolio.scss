@@ -1,0 +1,17 @@
+.portfolio {
+  padding-top: 90rem;
+  padding-bottom: 90rem;
+
+  border-bottom: var(--border);
+
+  &__description {
+    padding-bottom: 40rem;
+  }
+}
+
+.gallery {
+     border-radius: 8rem;
+     width: 100%;
+}
+
+
