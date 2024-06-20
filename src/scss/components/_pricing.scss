@@ -1,6 +1,7 @@
 .pricing {
   padding-top: 90rem;
   padding-bottom: 90rem;
+  border-bottom: var(--border);
 
   &__description {
     padding-bottom: 40rem;
@@ -69,4 +70,8 @@
     flex-direction: column;
     gap: 17rem;
   }
+}
+
+.price-arrow {
+  color: var(--white-color);
 }

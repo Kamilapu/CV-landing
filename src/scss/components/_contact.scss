@@ -1,0 +1,52 @@
+.contact {
+  padding-top: 90rem;
+  padding-bottom: 90rem;
+  
+  &__description {
+    padding-bottom: 40rem;
+  }
+
+  &__btn {
+    display: inline-block;
+
+    font-weight: 500;
+    font-size: 16rem;
+    color: var(--white-color);
+    border: 1rem solid #ed9902;
+    background: var(--primary-color);
+    border-radius: 5rem;
+    padding: 13rem 18rem;
+  }
+}
+
+.contact-form {
+  &__input-name {
+    width: 100%;
+  }
+
+  &__input-email {
+    width: 100%;
+  }
+
+  &__input-message {
+    resize: vertical;
+    width: 100%;
+    max-height: 100rem;
+  }
+}
+
+.contact-input {
+  border: var(--border);
+  border-radius: 4rem;
+  color: var(--primary-color);
+  display: block;
+  margin-bottom: 24rem;
+  padding: 14rem 16rem;
+  background: transparent;
+  &::placeholder {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 14rem;
+    color: var(--text-color);
+  }
+}
