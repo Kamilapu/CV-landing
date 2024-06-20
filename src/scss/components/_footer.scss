@@ -1,0 +1,14 @@
+.footer {
+  background: var(--backgr-color);
+  padding: 53rem 150rem;
+  &__navbar {
+    display: flex;
+    gap: 34rem;
+    justify-content: end;
+  }
+
+  &__nav {
+    font-weight: 400;
+    font-size: 16rem;
+  }
+}

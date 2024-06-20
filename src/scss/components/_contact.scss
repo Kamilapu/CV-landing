@@ -36,6 +36,7 @@
 }
 
 .contact-input {
+  box-sizing: border-box;
   border: var(--border);
   border-radius: 4rem;
   color: var(--primary-color);
