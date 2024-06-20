@@ -16,6 +16,11 @@
     background: var(--primary-color);
     border-radius: 5rem;
     padding: 13rem 18rem;
+
+    transition: var(--transition);
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 

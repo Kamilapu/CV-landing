@@ -60,6 +60,11 @@
     font-size: 14rem;
     line-height: 160%;
     color: var(--white-color);
+    transition: var(--transition);
+    &:hover {
+      transform: scale(1.2);
+      background: var(--primary-color);
+    }
   }
 
   &__info {

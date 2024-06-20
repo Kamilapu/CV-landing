@@ -39,6 +39,10 @@
     border-radius: 5rem;
     padding: 13rem 18rem;
     background: var(--primary-color);
+    transition: var(--transition);
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 
